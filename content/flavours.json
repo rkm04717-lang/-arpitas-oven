@@ -1,0 +1,9 @@
+{
+  "items": [
+    { "name": "Chocolate truffle", "description": "Rich cocoa sponge layered with dark chocolate ganache.", "price": "Price on request", "image": "" },
+    { "name": "Chocolate mousse", "description": "Airy chocolate mousse over a soft chocolate sponge base.", "price": "Price on request", "image": "" },
+    { "name": "Mango", "description": "Fresh mango cream layered through a light vanilla sponge.", "price": "Price on request", "image": "" },
+    { "name": "Rasmalai", "description": "Rasmalai-flavoured sponge with a saffron and cardamom cream.", "price": "Price on request", "image": "" },
+    { "name": "Black forest", "description": "Chocolate sponge, cherries, and whipped cream.", "price": "Price on request", "image": "" }
+  ]
+}
