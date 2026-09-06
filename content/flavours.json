@@ -19,16 +19,15 @@
       "image": ""
     },
     {
-      "name": "Mango",
-      "description": "Fresh mango cream layered through a light vanilla sponge.",
-      "price": "Price on request",
-      "image": ""
-    },
-    {
       "name": "Rasmalai",
       "description": "Rasmalai-flavoured sponge with a saffron and cardamom cream.",
       "price": "Price on request",
       "image": ""
+    },
+    {
+      "name": "Mango cake",
+      "description": "Soft, fluffy cake layered with creamy mango filling made with delicious mango crush, offering a rich and refreshing mango flavour in every bite.",
+      "price": "₹550 / 1 Pound onwards  Price may vary based on the complexity of the design and custom decorations."
     }
   ]
 }
