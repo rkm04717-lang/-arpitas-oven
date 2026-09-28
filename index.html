@@ -9,6 +9,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Arpita's Oven — Home-baked cakes</title>
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
@@ -87,6 +89,8 @@
   .btn-secondary{background:transparent; color:var(--cocoa); border:1.5px solid rgba(85,54,47,0.35);}
 
   /* ---------- decorative icing divider ---------- */
+  .hero-photo{width:100%; aspect-ratio:4/5; object-fit:cover; border-radius:var(--radius-lg); border:6px solid var(--white); box-shadow:0 14px 34px rgba(85,54,47,0.16);}
+  @media(max-width:800px){ .hero-photo{max-width:340px; margin:0 auto;} }
   .icing-divider{width:100%; height:34px; display:block;}
 
   /* ---------- about ---------- */
@@ -228,6 +232,8 @@
     </div>
   </div>
   <div class="hero-art">
+    <img id="heroPhoto" class="hero-photo" src="hero.jpg" alt="A cake baked at Arpita's Oven" onerror="this.style.display='none'; document.getElementById('heroFallback').style.display='block';">
+    <div id="heroFallback" style="display:none;">
     <svg viewBox="0 0 360 320" width="100%" xmlns="http://www.w3.org/2000/svg">
       <ellipse cx="180" cy="278" rx="120" ry="14" fill="#F4A9A0" opacity="0.35"/>
       <rect x="90" y="180" width="180" height="70" rx="10" fill="#FFFFFF" stroke="#EBC9BE" stroke-width="2"/>
@@ -246,6 +252,7 @@
       <circle cx="130" cy="210" r="4" fill="#D9A066"/>
       <circle cx="235" cy="215" r="4" fill="#F4A9A0"/>
     </svg>
+    </div>
   </div>
 </section>
 
